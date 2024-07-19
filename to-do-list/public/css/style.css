@@ -7,12 +7,25 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+.sticky-note{
+    padding: 30px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: rgb(252, 255, 91);
+    box-shadow: 0 0 10px rgba(211, 255, 50, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    border: 1px solid black;
 }
 
 h1 {

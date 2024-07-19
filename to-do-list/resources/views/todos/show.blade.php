@@ -7,6 +7,7 @@
 
 @section('content')
     <h1>To-Do Details</h1>
+<div class="sticky-note">
 
     <div>
         <strong>Title:</strong>
@@ -20,6 +21,7 @@
         <strong>Completed:</strong>
         {{ $todo->completed ? 'Yes' : 'No' }}
     </div>
+</div>
 
     <a href="{{ route('todos.index') }}" class="btn btn-primary">Back to List</a>
 @endsection
